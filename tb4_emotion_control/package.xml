@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tb4_emotion_control</name>
+  <version>0.1.0</version>
+  <description>Nhận diện biểu cảm khuôn mặt (DeepFace) và điều khiển TurtleBot 4 qua /cmd_vel</description>
+  <maintainer email="baodz20811@gmail.com">bao</maintainer>
+  <license>MIT</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>turtlebot4_ignition_bringup</exec_depend>
+  <exec_depend>irobot_create_msgs</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>
